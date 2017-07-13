@@ -1,0 +1,305 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    min-width: 800px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+::selection {
+    background: #1e96e2;
+    color: white;
+}
+
+/* Column Structure */
+section#content {
+    width: auto;
+    margin: 0 auto;
+}
+
+section#content:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+section#main {
+    padding: 2.5%;
+    float: left;
+    width: 75%;
+}
+
+section#sidebar {
+    float: right;
+    width: 25%;
+    padding: 2.5%;
+    background-color: #f6f6f6;
+}
+
+a {
+    color: #20ace8;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Search */
+
+form.search {
+    margin-bottom: 50px;
+}
+
+form.search:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+form.search input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 44px;
+    display: block;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+form.search input#field {
+    width: 80%;
+    float: left;
+    background-color: #fff;
+    padding-left: 5%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+form.search input#submit {
+    -webkit-appearance: none;
+    border-radius: 0;
+    width: 15%;
+    float: right;
+    background-color: #20ace8;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Categories */
+
+ul.categories {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.categories li {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+ul.categories li a, a.category {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #20ace8;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #20ace8;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a.category {
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+a.category.badge {
+    border: 1px solid #4fc357;
+    color: #4fc357;
+}
+
+a.category:hover {
+    background-color: #20ace8;
+    color: #fff;
+}
+
+a.category.badge:hover {
+    background-color: #4fc357;
+}
+
+ul.categories li a:hover {
+    background-color: #20ace8;
+    color: #fff;
+}
+
+/* Feed List */
+section.feedList {
+    opacity: 1;
+}
+
+div.show {
+    width: 20%;
+    min-width: 150px;
+    background-color: #f6f6f6;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid #f6f6f6;
+    border-radius: 4px;
+}
+
+div.show:hover {
+    border: 2px solid #20ace8;
+}
+
+div.show img {
+    width: 100%;
+    height: auto;
+}
+
+div.show p.title {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+div.show p.description {
+    font-size: 10px;
+}
+
+div.show p.updated {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+div.targeter {
+    padding: 20px;
+    color: #ffffff;
+    background-color: #ee4444;
+}
+
+div.targeter .right {
+    float: right;
+}
+
+.targeter a:link {
+    color: #ffffff;
+}
+
+.targeter a:visited {
+    color: #ffffff;
+}
+
+.targeter a:hover {
+    color: #ffffff;
+}
+
+.targeter a:active {
+    color: #ffffff;
+}
+
+.targetButton {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    border: 1px solid #20ace8;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #20ace8;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p.tip {
+    font-size: 13px;
+    font-style: italic;
+}
+
+div.helpinfo p {
+    font-size: 13px;
+}
+
+div#orderbook {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+div#orderbook:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+div#buyorders
+{
+    float: left;
+    width: 50%;
+    padding-right: 2.5%;
+}
+
+div#sellorders
+{
+    float: right;
+    width: 50%;
+}
+
+div#buyordermaker {
+    float: left;
+    width: 50%;
+    padding-right: 2.5%;
+}
+div#sellordermaker {
+    float: right;
+    width: 50%;
+}
+
