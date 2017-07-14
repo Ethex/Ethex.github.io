@@ -302,4 +302,15 @@ div#sellordermaker {
     float: right;
     width: 50%;
 }
+table, td, th {
+    border: 1px solid black;
+}
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
