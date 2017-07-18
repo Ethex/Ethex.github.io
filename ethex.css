@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -302,17 +302,64 @@ div#sellordermaker {
     float: right;
     width: 50%;
 }
-table, td, th {
+div#scroll_table {
+    height: 300px;
+    overflow-y: auto;
     border: 1px solid black;
 }
-
+input[type=number]{
+    width: 180px;
+}
+table, td, th {
+    vertical-align:center;
+    text-align: right;
+    font-size: 12px;
+}
 table {
-    border-collapse: collapse;
+
     width: 100%;
 }
 
 th {
-    text-align: left;
+    text-align: right;
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+th#ident {
+  width: 35px;
+}
+
+th#price {
+  width: 80px;
+}
+th#amount {
+  width: 80px;
+}
+th#total {
+  width: 80px;
+}
+th#action {
+  width: 50px;
+}
+
+div#label {
+  width: 25%; float:left; margin: 5px;
+}
+div#value {
+  width: 25%; float:left; margin: 5px;
+}
+div#valueType {
+  width: 25%; float:left; margin: 5px;
+}
+fieldset {
+  height: 150px;
 }
 .tooltip {
     position: relative;
@@ -334,6 +381,19 @@ th {
     left: 50%;
     margin-left: -60px;
 }
+.tooltip .before_tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+}
 
 .tooltip .tooltiptext::after {
     content: "";
@@ -346,6 +406,9 @@ th {
     border-color: transparent transparent black transparent;
 }
 
+.tooltip:hover .before_tooltiptext {
+    visibility: visible;
+}
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
