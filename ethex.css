@@ -381,6 +381,19 @@ fieldset {
     left: 50%;
     margin-left: -60px;
 }
+.tooltip .before_tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+}
 
 .tooltip .tooltiptext::after {
     content: "";
@@ -393,6 +406,9 @@ fieldset {
     border-color: transparent transparent black transparent;
 }
 
+.tooltip:hover .before_tooltiptext {
+    visibility: visible;
+}
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
