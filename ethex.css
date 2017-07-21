@@ -315,7 +315,13 @@ tr#clickRowSelected {
   cursor: pointer;
   background-color: #ff0000;
 }
-
+img#tokenIcon {
+  height:35px;
+  width:35px;
+}
+table#market {
+  background-color: #000000;
+}
 input[type=number]{
     width: 180px;
 }
