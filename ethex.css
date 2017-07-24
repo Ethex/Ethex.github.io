@@ -307,6 +307,21 @@ div#scroll_table {
     overflow-y: auto;
     border: 1px solid black;
 }
+
+tr#clickRow {
+  cursor: pointer;
+}
+tr#clickRowSelected {
+  cursor: pointer;
+  background-color: #ff0000;
+}
+img#tokenIcon {
+  height:35px;
+  width:35px;
+}
+table#market {
+  background-color: #000000;
+}
 input[type=number]{
     width: 180px;
 }
@@ -411,4 +426,16 @@ fieldset {
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+.buyRegion {
+    fill: rgba(0,255,0,0.1);
+    stroke: rgba(0,255,0,1);
+    stroke-width: 1;
+}
+
+.sellRegion {
+    fill: rgba(255,0,0,0.1);
+    stroke: rgba(255,0,0,1);
+    stroke-width: 1;
 }
