@@ -1,5 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -10,6 +12,7 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    background-color: #ececec; /* etxMedGray */
 }
 
 *, *:before, *:after {
@@ -19,9 +22,100 @@ html, body {
 }
 
 ::selection {
-    background: #1e96e2;
+    background: #1a1b22; /* etxUltraNurple */
     color: white;
 }
+
+/* header */
+section#header {
+    padding: 45px 0;
+    margin: 0;
+    background-color: #1d3e46; /* extDeepSea */
+    background-image: url(etx-header-bg.jpg);
+    background-repeat: repeat-x;
+    height: 374px;
+    margin-bottom: -142px;
+}
+#header #ethexlogo {
+    margin-left: 45px;
+}
+
+
+/* account block and react-Select overrides */
+div#accountblock {
+    float: right;
+    width: 24%;
+    margin-right: 0;
+    padding: 0;
+    min-width: 400px;
+}
+#accountblock div.Select-control {
+    background-color: rgba(26, 27, 34, 1.00); /* etxUltraNurple */
+    border: none;
+    border-radius: 0;
+    color: white;
+}
+#accountblock div.Select-value {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 600; /* semibold */
+    line-height: 62px; /* match this to the select-input height */
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#accountblock div.Select-value-label {
+    color: inherit;
+}
+#accountblock div.Select-input {
+    height: 62px;
+}
+#accountblock .has-value.Select--single > .Select-control .Select-value .Select-value-label,
+#accountblock .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: inherit;
+}
+#accountblock span.Select-arrow {
+    border-color: white transparent transparent;
+}
+#accountblock canvas {
+    /* all the account images should follow these rules */
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+div#accountsupporterinfo {
+    background-color: rgba(26, 27, 34, 0.65);
+    margin: 1px 0 0 0;
+    padding: 16px;
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 600;
+}
+#accountsupporterinfo:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+div#supporterbal {
+    float: left;
+}
+div#supportervesting {
+    float: right;
+    text-align: right;
+}
+span.vestlighton {
+    color: #31d280; /* etxMinty */
+}
+span.vestlightoff {
+    color: #4e5166; /* etxNurple */
+}
+
+
 
 /* Column Structure */
 section#content {
@@ -39,20 +133,21 @@ section#content:after {
 }
 
 section#main {
-    padding: 2.5%;
+    padding: 16px;
     float: left;
     width: 75%;
+    background-color: white;
 }
 
 section#sidebar {
     float: right;
-    width: 25%;
-    padding: 2.5%;
-    background-color: #f6f6f6;
+    width: 24%;
+    padding: 16px;
+    background-color: white;
 }
 
 a {
-    color: #20ace8;
+    color: #00caee; /* etxCoolBlue */
 }
 
 h1 {
@@ -72,190 +167,6 @@ h3 {
 
 p {
     font-size: 16px;
-}
-
-/* Search */
-
-form.search {
-    margin-bottom: 50px;
-}
-
-form.search:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-form.search input {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    height: 44px;
-    display: block;
-    font-size: 16px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 300;
-}
-
-form.search input#field {
-    width: 80%;
-    float: left;
-    background-color: #fff;
-    padding-left: 5%;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-
-form.search input#submit {
-    -webkit-appearance: none;
-    border-radius: 0;
-    width: 15%;
-    float: right;
-    background-color: #20ace8;
-    color: #fff;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-/* Categories */
-
-ul.categories {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul.categories li {
-    display: inline-block;
-    margin: 0 5px 5px 0;
-}
-
-ul.categories li a, a.category {
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 10px;
-    border: 1px solid #20ace8;
-    border-radius: 6px;
-    font-size: 16px;
-    color: #20ace8;
-    text-decoration: none;
-    text-transform: lowercase;
-}
-
-a.category {
-    font-size: 10px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 3px;
-    padding: 0 5px;
-}
-
-a.category.badge {
-    border: 1px solid #4fc357;
-    color: #4fc357;
-}
-
-a.category:hover {
-    background-color: #20ace8;
-    color: #fff;
-}
-
-a.category.badge:hover {
-    background-color: #4fc357;
-}
-
-ul.categories li a:hover {
-    background-color: #20ace8;
-    color: #fff;
-}
-
-/* Feed List */
-section.feedList {
-    opacity: 1;
-}
-
-div.show {
-    width: 20%;
-    min-width: 150px;
-    background-color: #f6f6f6;
-    margin: 1%;
-    padding: 1%;
-    border: 2px solid #f6f6f6;
-    border-radius: 4px;
-}
-
-div.show:hover {
-    border: 2px solid #20ace8;
-}
-
-div.show img {
-    width: 100%;
-    height: auto;
-}
-
-div.show p.title {
-    font-size: 10px;
-    font-weight: 500;
-}
-
-div.show p.description {
-    font-size: 10px;
-}
-
-div.show p.updated {
-    font-size: 10px;
-    margin-bottom: 0;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-    font-size: 10px;
-}
-
-div.targeter {
-    padding: 20px;
-    color: #ffffff;
-    background-color: #ee4444;
-}
-
-div.targeter .right {
-    float: right;
-}
-
-.targeter a:link {
-    color: #ffffff;
-}
-
-.targeter a:visited {
-    color: #ffffff;
-}
-
-.targeter a:hover {
-    color: #ffffff;
-}
-
-.targeter a:active {
-    color: #ffffff;
-}
-
-.targetButton {
-    display: inline-block;
-    height: 24px;
-    line-height: 24px;
-    padding: 0 8px;
-    border: 1px solid #20ace8;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 500;
-    color: #20ace8;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 p.tip {
@@ -293,15 +204,45 @@ div#sellorders
     width: 50%;
 }
 
+/* Order Makers */
+#buyordermaker fieldset, #sellordermaker fieldset {
+    position: relative;
+    margin: 50px 0 0 0;
+    padding: 16px;
+    border: none;
+    background: #f5f5f5; /* etxMegGray */
+}
+
+#buyordermaker legend, #sellordermaker legend {
+    position: absolute;
+    left: 0;
+    top: -50px;
+    height: 50px;
+    width: 100%;
+    padding: 0 16px 0 16px;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+}
+
 div#buyordermaker {
     float: left;
     width: 50%;
     padding-right: 2.5%;
 }
+#buyordermaker legend {
+    background-color: #1d3e46; /* etxDeepSea */
+}
+
 div#sellordermaker {
     float: right;
     width: 50%;
 }
+#sellordermaker legend {
+    background-color: #ff6363; /* etxSalmon */
+}
+
 div#scroll_table {
     height: 300px;
     overflow-y: auto;
@@ -313,14 +254,14 @@ tr#clickRow {
 }
 tr#clickRowSelected {
   cursor: pointer;
-  background-color: #ff0000;
+  background-color: #ff6363; /* etxSalmon */
 }
 img#tokenIcon {
-  height:35px;
-  width:35px;
+  height:32px;
+  width:32px;
 }
 table#market {
-  background-color: #000000;
+
 }
 input[type=number]{
     width: 180px;
@@ -331,22 +272,18 @@ table, td, th {
     font-size: 12px;
 }
 table {
-
     width: 100%;
 }
 
 th {
     text-align: right;
-    background-color: #ffffff;
+    background-color: white;
 }
 
-tr:nth-child(even) {
-    background-color: #ffffff;
+tr {
+    border-bottom: 1px #ff6363 solid; /* etxSalmon */
 }
 
-tr:nth-child(odd) {
-    background-color: #eeeeee;
-}
 th#ident {
   width: 35px;
 }
@@ -373,9 +310,6 @@ div#value {
 div#valueType {
   width: 25%; float:left; margin: 5px;
 }
-fieldset {
-  height: 150px;
-}
 .tooltip {
     position: relative;
     display: inline-block;
@@ -385,8 +319,8 @@ fieldset {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: #1a1b22; /* etxUltraNurple */
+    color: white;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -399,8 +333,8 @@ fieldset {
 .tooltip .before_tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: #1a1b22; /* etxUltraNurple */
+    color: white;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -418,7 +352,7 @@ fieldset {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent #1a1b22 transparent; /* etxUltraNurple */
 }
 
 .tooltip:hover .before_tooltiptext {
@@ -438,4 +372,7 @@ fieldset {
     fill: rgba(255,0,0,0.1);
     stroke: rgba(255,0,0,1);
     stroke-width: 1;
+}
+.yAxis .domain {
+    stroke-width: 0;
 }
