@@ -1,15 +1,15 @@
 {
-  "main.css": "static/css/main.c0ba6335.css",
-  "main.css.map": "static/css/main.c0ba6335.css.map",
-  "main.js": "static/js/main.c3d23583.js",
-  "main.js.map": "static/js/main.c3d23583.js.map",
+  "main.css": "static/css/main.3383fc5a.css",
+  "main.css.map": "static/css/main.3383fc5a.css.map",
+  "main.js": "static/js/main.97db7b09.js",
+  "main.js.map": "static/js/main.97db7b09.js.map",
   "static/media/ETHEREUM-ICON_Black.png": "static/media/ETHEREUM-ICON_Black.f9eebb41.png",
-  "static/media/ethex-bikeblockchain2x.png": "static/media/ethex-bikeblockchain2x.89ced6c3.png",
   "static/media/ethex-is-decentralized2x.png": "static/media/ethex-is-decentralized2x.1551cb1c.png",
   "static/media/ethex-mainpage-bg.png": "static/media/ethex-mainpage-bg.b298ffd6.png",
   "static/media/ethex-screen2x.png": "static/media/ethex-screen2x.8fc2e33b.png",
-  "static/media/etx-header-bg.jpg": "static/media/etx-header-bg.70a2895f.jpg",
+  "static/media/etx-header-bg.jpg": "static/media/etx-header-bg.83f7ac36.jpg",
   "static/media/etx-logotype-main2x.png": "static/media/etx-logotype-main2x.13dc7803.png",
-  "static/media/etx-logotype2x.png": "static/media/etx-logotype2x.a05b4bbc.png",
-  "static/media/etx-tokenhover2x.png": "static/media/etx-tokenhover2x.47f1846b.png"
+  "static/media/etx-logotype2x.png": "static/media/etx-logotype2x.35d66103.png",
+  "static/media/etx-tokenhover2x.png": "static/media/etx-tokenhover2x.47f1846b.png",
+  "static/media/hp-metamask2x.png": "static/media/hp-metamask2x.da3a716e.png"
 }
