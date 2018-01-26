@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.dea22ec2.css",
   "main.css.map": "static/css/main.dea22ec2.css.map",
-  "main.js": "static/js/main.4c36f125.js",
-  "main.js.map": "static/js/main.4c36f125.js.map",
+  "main.js": "static/js/main.cc9c3578.js",
+  "main.js.map": "static/js/main.cc9c3578.js.map",
   "static/media/ETHEREUM-ICON_Black.png": "static/media/ETHEREUM-ICON_Black.f9eebb41.png",
   "static/media/arrow-left-thick.svg": "static/media/arrow-left-thick.d98c5eca.svg",
   "static/media/arrow-right-thick.svg": "static/media/arrow-right-thick.63451c78.svg",
@@ -19,6 +19,7 @@
   "static/media/ic_delete_forever_white_24px.svg": "static/media/ic_delete_forever_white_24px.bd0986d2.svg",
   "static/media/ic_file_download_white_24px.svg": "static/media/ic_file_download_white_24px.4b5c054e.svg",
   "static/media/ic_file_upload_white_24px.svg": "static/media/ic_file_upload_white_24px.f95b7756.svg",
+  "static/media/logo.png": "static/media/logo.44357d12.png",
   "static/media/scale-balance.svg": "static/media/scale-balance.2c8c8be4.svg",
   "static/media/waveloop-br3.mp4": "static/media/waveloop-br3.55994234.mp4",
   "static/media/waveloop-br3.webm": "static/media/waveloop-br3.60765538.webm"
