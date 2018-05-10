@@ -1,8 +1,7 @@
 {
   "main.css": "static/css/main.e5f318ff.css",
   "main.css.map": "static/css/main.e5f318ff.css.map",
-  "main.js": "static/js/main.f5c683b9.js",
-  "main.js.map": "static/js/main.f5c683b9.js.map",
+  "main.js": "static/js/main.b51421e6.js",
   "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f": "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f.27055473.bin",
   "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45": "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45.06b09caa.bin",
   "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d": "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d.0798842c.bin",
@@ -434,6 +433,7 @@
   "static/media/ic_file_download_black_48px.svg": "static/media/ic_file_download_black_48px.130c3918.svg",
   "static/media/ic_file_upload_white_24px.svg": "static/media/ic_file_upload_white_24px.f95b7756.svg",
   "static/media/ic_keyboard_arrow_down_24px.svg": "static/media/ic_keyboard_arrow_down_24px.cd90a7ab.svg",
+  "static/media/ledger-nano.png": "static/media/ledger-nano.ba9edd05.png",
   "static/media/logo.png": "static/media/logo.44357d12.png",
   "static/media/pending.svg": "static/media/pending.7702314e.svg",
   "static/media/waveloop-br3.mp4": "static/media/waveloop-br3.55994234.mp4",
