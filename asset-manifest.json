@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.230daf0d.css",
-  "main.css.map": "static/css/main.230daf0d.css.map",
-  "main.js": "static/js/main.b1b85127.js",
-  "main.js.map": "static/js/main.b1b85127.js.map",
+  "main.css": "static/css/main.b5ea981b.css",
+  "main.css.map": "static/css/main.b5ea981b.css.map",
+  "main.js": "static/js/main.22382146.js",
+  "main.js.map": "static/js/main.22382146.js.map",
   "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f": "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f.27055473.bin",
   "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45": "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45.06b09caa.bin",
   "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d": "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d.0798842c.bin",
@@ -425,6 +425,7 @@
   "static/media/arrow-right-thick.svg": "static/media/arrow-right-thick.63451c78.svg",
   "static/media/colinkarpfinger@2x.jpg": "static/media/colinkarpfinger@2x.1402ee63.jpg",
   "static/media/complete.svg": "static/media/complete.7a60c84a.svg",
+  "static/media/connermcclure@2x.png": "static/media/connermcclure@2x.48ba1a74.png",
   "static/media/coresansc45-webfont.woff": "static/media/coresansc45-webfont.aa868375.woff",
   "static/media/coresansc45-webfont.woff2": "static/media/coresansc45-webfont.a7818393.woff2",
   "static/media/coresansc45it-webfont.woff": "static/media/coresansc45it-webfont.26fb579c.woff",
@@ -445,7 +446,6 @@
   "static/media/danwalton@2x.png": "static/media/danwalton@2x.50d0cfcb.png",
   "static/media/error.svg": "static/media/error.25fc5546.svg",
   "static/media/ethex-logo.svg": "static/media/ethex-logo.fb3d0f09.svg",
-  "static/media/ethex-mainpage-bg.png": "static/media/ethex-mainpage-bg.b298ffd6.png",
   "static/media/ethex-wordmark.svg": "static/media/ethex-wordmark.94b794ac.svg",
   "static/media/etx-icon-github.svg": "static/media/etx-icon-github.6e2bd5f5.svg",
   "static/media/fp-bg-ethexnurpletriangle.svg": "static/media/fp-bg-ethexnurpletriangle.cca77dbd.svg",
@@ -454,7 +454,6 @@
   "static/media/fp-ethexsmartcontract.svg": "static/media/fp-ethexsmartcontract.e76877fd.svg",
   "static/media/fp-green-bg.jpg": "static/media/fp-green-bg.dcf2b421.jpg",
   "static/media/fp-splash-bg@2x.png": "static/media/fp-splash-bg@2x.0c208f84.png",
-  "static/media/headshot-placeholder@2x.png": "static/media/headshot-placeholder@2x.e4b51c33.png",
   "static/media/ic_file_download_black_48px.svg": "static/media/ic_file_download_black_48px.130c3918.svg",
   "static/media/ic_file_upload_white_24px.svg": "static/media/ic_file_upload_white_24px.f95b7756.svg",
   "static/media/ic_keyboard_arrow_down_24px.svg": "static/media/ic_keyboard_arrow_down_24px.cd90a7ab.svg",
@@ -465,6 +464,5 @@
   "static/media/pending.svg": "static/media/pending.7702314e.svg",
   "static/media/tayloroverton@2x.jpg": "static/media/tayloroverton@2x.2c37c599.jpg",
   "static/media/waveloop-br3.mp4": "static/media/waveloop-br3.55994234.mp4",
-  "static/media/waveloop-br3.webm": "static/media/waveloop-br3.60765538.webm",
   "static/media/zachsaul@2x.jpg": "static/media/zachsaul@2x.dd2b2af8.jpg"
 }
