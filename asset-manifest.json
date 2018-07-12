@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.77933bac.css",
   "main.css.map": "static/css/main.77933bac.css.map",
-  "main.js": "static/js/main.c9f6e383.js",
-  "main.js.map": "static/js/main.c9f6e383.js.map",
+  "main.js": "static/js/main.fcf2ab21.js",
+  "main.js.map": "static/js/main.fcf2ab21.js.map",
   "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f": "static/media/0x001e517fdc3eace82696ee9b7a07ee36a172922f.27055473.bin",
   "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45": "static/media/0x006bea43baa3f7a6f765f14f10a1a1b08334ef45.06b09caa.bin",
   "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d": "static/media/0x01a7018e6d1fde8a68d12f59b6532fb523b6259d.0798842c.bin",
@@ -50,6 +50,7 @@
   "static/media/0x1844b21593262668b7248d0f57a220caaba46ab9": "static/media/0x1844b21593262668b7248d0f57a220caaba46ab9.eabe5ea1.bin",
   "static/media/0x190e569be071f40c704e15825f285481cb74b6cc": "static/media/0x190e569be071f40c704e15825f285481cb74b6cc.b4eed538.bin",
   "static/media/0x190fb342aa6a15eb82903323ae78066ff8616746": "static/media/0x190fb342aa6a15eb82903323ae78066ff8616746.ee544497.bin",
+  "static/media/0x1985365e9f78359a9b6ad760e32412f4a445e862": "static/media/0x1985365e9f78359a9b6ad760e32412f4a445e862.19e2b165.bin",
   "static/media/0x1a95b271b0535d15fa49932daba31ba612b52946": "static/media/0x1a95b271b0535d15fa49932daba31ba612b52946.5bc55f58.bin",
   "static/media/0x1b1487b1fabdd2ff643948591f9850259dce017f": "static/media/0x1b1487b1fabdd2ff643948591f9850259dce017f.5ae43235.bin",
   "static/media/0x1b22c32cd936cb97c28c5690a0695a82abf688e6": "static/media/0x1b22c32cd936cb97c28c5690a0695a82abf688e6.8224892a.bin",
