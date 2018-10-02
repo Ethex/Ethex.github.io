@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg8" inkscape:version="0.92.2 (unknown)" sodipodi:docname="0xbitcoin.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+	 style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#path10_1_);}
+	.st1{fill:#C8B7B7;}
+	.st2{fill:#E3DBDB;}
+	.st3{fill:#691D70;fill-opacity:8.974358e-02;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="-1724.1348" inkscape:cy="243.7514" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1001" inkscape:window-maximized="1" inkscape:window-width="1680" inkscape:window-x="0" inkscape:window-y="25" inkscape:zoom="0.12374369" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	
+		<linearGradient id="path10_1_" gradientUnits="userSpaceOnUse" x1="171.5375" y1="574.6222" x2="496.2909" y2="744.4171" gradientTransform="matrix(2.8346 0 0 -2.8346 -459.3259 2376.1956)">
+		<stop  offset="0" style="stop-color:#FF6600"/>
+		<stop  offset="1" style="stop-color:#FF881A"/>
+	</linearGradient>
+	<circle id="path10" class="st0" cx="500" cy="500" r="500"/>
+	<g id="g3829" transform="matrix(1.3522505,0.28742971,-0.28742971,1.3522505,5.9315636,-70.065288)">
+		<a id="a133">
+			
+				<path id="path14" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0.1" inkscape:transform-center-x="1.589891" inkscape:transform-center-y="-2.9600358" sodipodi:arg1="2.1621603" sodipodi:arg2="2.9475585" sodipodi:cx="104.14451" sodipodi:cy="107.56959" sodipodi:r1="46.449638" sodipodi:r2="32.514748" sodipodi:sides="4" sodipodi:type="star" class="st1" d="
+				M438.3,612.2c-24.5,0.1-173.5-245.9-173.5-286.5C264.7,285,413.1,38,437.6,37.9C462,37.8,611,283.8,611.1,324.4
+				C611.1,365,462.8,612.1,438.3,612.2L438.3,612.2z"/>
+		</a>
+		
+			<path id="path16" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0.1" inkscape:transform-center-x="1.3631317" inkscape:transform-center-y="-2.5378642" sodipodi:arg1="2.1621603" sodipodi:arg2="2.9475585" sodipodi:cx="104.14451" sodipodi:cy="107.56959" sodipodi:r1="46.449638" sodipodi:r2="32.514748" sodipodi:sides="4" sodipodi:type="star" class="st2" d="
+			M429.5,559.5c-21,0.1-148.7-210.9-148.8-245.7c0-34.8,127.2-246.6,148.2-246.7c21-0.1,148.7,210.9,148.8,245.7
+			C577.7,347.6,450.5,559.4,429.5,559.5L429.5,559.5z"/>
+		<path id="path20" inkscape:connector-curvature="0" sodipodi:nodetypes="ccsssc" class="st3" d="M431,106.5
+			c34.5,14.1,70,56,91.9,95.3c22,39.3,54.6,98.7,9.1,125.4c-25.6,15-52,11.4-91.3,8c-26.4-2.3-26.4-65.3-23.3-122
+			C421.2,145.6,431,106.5,431,106.5L431,106.5z"/>
+	</g>
+</g>
+</svg>
